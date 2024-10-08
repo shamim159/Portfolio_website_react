@@ -15,7 +15,10 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1">
-              Hello I'm <br /> <span className="text-accent">Sam Ali</span>
+              Hello I'm <br />{" "}
+              <span className=" text-[80px] text-[#fff] text-center [text-shadow:0_0_5px_#fff,_0_0_10px_#fff,_0_0_15px_#00FF99,_0_0_20px_#00FF99,_0_0_25px_#00FF99,_0_0_30px_#00FF99,_0_0_35px_#00FF99]">
+                Sam Ali
+              </span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I'm a skilled developer with a passion for crafting elegant
@@ -27,9 +30,11 @@ const Home = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="uppercase flex items-center gap-2"
+                className="button uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <a href="/CV.pdf" download="cv">
+                  <span>Download CV</span>
+                </a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

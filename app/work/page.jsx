@@ -20,21 +20,32 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Vanilla",
+    category: "frontend react",
     title: "Project 1",
+    description:
+      "basic react frontend shopping design showing responsive components",
+    stack: [{ name: "React" }, { name: "Javascript" }],
+    image: "/assets/work/shopping site.png",
+    live: "",
+    github: "https://github.com/shamim159/Ecomm",
+  },
+  {
+    num: "02",
+    category: "Vanilla",
+    title: "Project 2",
     description:
       "basic vanilla web design showing web design services with logical games",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/vanilla_w_design.png",
-    live: "",
-    github: "",
+    live: "https://shamim159.github.io/Portfolio_website_vanilla/",
+    github: "https://github.com/shamim159/Portfolio_website_vanilla",
   },
   {
-    num: "02",
+    num: "03",
     category: "fullstack",
-    title: "Project 2",
+    title: "Project 3",
     description:
-      "fullstack application using the mern stack, nextJs, firebase and tailwind css, ",
+      "fullstack real estate application using the mern stack, nextJs, firebase and tailwind css, ",
     stack: [
       { name: "Next.js" },
       { name: "Tailwind.css" },
@@ -43,7 +54,27 @@ const projects = [
     ],
     image: "/assets/work/sam_estate.jpg",
     live: "",
-    github: "",
+    github: "https://github.com/shamim159/Sam-RealEstate",
+  },
+  {
+    num: "04",
+    category: "python",
+    title: "Project 4",
+    description: "a simple chatbot that learns from user using python, ",
+    stack: [{ name: "Python" }],
+    image: "/assets/work/chatbot.png",
+    live: "https://replit.com/@shaminali786123/Chatbot",
+    github: "https://github.com/shamim159/chat_bot_v1/tree/main",
+  },
+  {
+    num: "05",
+    category: "mysql",
+    title: "Project 5",
+    description: "database queries used on workbench, ",
+    stack: [{ name: "Mysql" }],
+    image: "/assets/work/mysql-demo.png",
+    live: "",
+    github: "https://github.com/shamim159/mysql",
   },
 ];
 

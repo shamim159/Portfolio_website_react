@@ -10,8 +10,11 @@ import {
 } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/shamim159" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/shamim-ali-03895738/",
+  },
   { icon: <FaYoutube />, path: "" },
   { icon: <FaTwitter />, path: "" },
   { icon: <FaInstagram />, path: "" },

@@ -7,14 +7,15 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "specialising in crafting custom, high-performance websites.",
+    description:
+      "Specialising in crafting custom, high-performance websites. With a focus on user experience, clean design, and cutting-edge technology",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Database",
     description:
-      "With a focus on user experience, clean design, and cutting-edge technology.",
+      "Efficient databases are the foundation of successful application.",
     href: "",
   },
   {

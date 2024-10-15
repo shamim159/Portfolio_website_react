@@ -16,7 +16,7 @@ const Home = () => {
             <span className="text-xl">Software Developer</span>
             <h1 className="h1">
               Hello I'm <br />{" "}
-              <span className=" text-[80px] text-[#fff] text-center [text-shadow:0_0_5px_#fff,_0_0_10px_#fff,_0_0_15px_#00FF99,_0_0_20px_#00FF99,_0_0_25px_#00FF99,_0_0_30px_#00FF99,_0_0_35px_#00FF99]">
+              <span className=" text-[120px] text-[#fff] text-center [text-shadow:0_0_5px_#fff,_0_0_10px_#fff,_0_0_15px_#00FF99,_0_0_20px_#00FF99,_0_0_25px_#00FF99,_0_0_30px_#00FF99,_0_0_35px_#00FF99] font-neon">
                 Sam Ali
               </span>
             </h1>

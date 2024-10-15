@@ -20,6 +20,7 @@ module.exports = {
     },
     fontFamily: {
       primary: ["JetBrains Mono", "monospace"],
+      neon: ["Neonderthaw", "cursive"],
     },
     extend: {
       colors: {
